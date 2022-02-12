@@ -1,6 +1,6 @@
 # 32x16 LED Array PCB using 788BS
 
-KiKad files for the design of an LED matrix. The board has been manufactured by PCB and is
+KiKad files for the design of an LED matrix. The board has been manufactured by PCB Way and is
 working.
 
 While physically a 16 row and 32 column design, it is logically organised as 8 rows and 64
@@ -32,6 +32,6 @@ by transposing the data for these rows in software before driving the serial int
 
 ## Future
 
-I plan to C drivers for Paspberry Pi Pico. Eventually I plan to migrate the IO the Pico's
+I plan to release C drivers for Paspberry Pi Pico. Eventually I plan to migrate the IO the Pico's
 programmable IO.
 
