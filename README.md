@@ -3,6 +3,11 @@
 KiKad 5.1 files for the design of an LED matrix. The board has been manufactured by PCB Way and is
 working.
 
+The design is based around 788BS LED modules, which each contain 8x8 red LEDs in a common cathode
+configuration.
+
+![Photo of 788BS](images/788BS.jpg)
+
 While physically a 16 row and 32 column design, it is logically organised as 8 rows and 64
 columns. Logical row N drives physical rows N and N+8.
 
@@ -15,7 +20,7 @@ using a 680 ohm resistor to limit current. Brightness of individual LEDs can be 
 externally by reprogramming the shift register and pulse-width-modulating the on-time for
 each column.
 
-![Render of PCB](front_render.png)
+![Render of PCB](images/front_render.png)
 
 ## Notes
 
