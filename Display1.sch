@@ -22,12 +22,14 @@ Wire Wire Line
 Wire Wire Line
 	4100 2050 4100 2300
 $Comp
-L my_lib:LED8x8 LED1
+L led_matrix_pcb:LED8x8 LED1
 U 1 1 61B9DDBF
 P 3950 2900
+AR Path="/61B9DDBF" Ref="LED1"  Part="1" 
+AR Path="/61B89A99/61B9DDBF" Ref="LED1"  Part="1" 
 F 0 "LED1" H 3350 3350 50  0000 C CNN
 F 1 "LED8x8_R1C1" H 3950 2950 50  0000 C CNN
-F 2 "first:788BS" H 3500 3150 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 3500 3150 50  0001 C CNN
 F 3 "" H 3500 3150 50  0001 C CNN
 	1    3950 2900
 	1    0    0    -1  
@@ -220,12 +222,14 @@ Wire Wire Line
 Wire Wire Line
 	3800 5100 3800 4850
 $Comp
-L my_lib:LED8x8 LED2
+L led_matrix_pcb:LED8x8 LED2
 U 1 1 61B9DE23
 P 5400 2900
+AR Path="/61B9DE23" Ref="LED2"  Part="1" 
+AR Path="/61B89A99/61B9DE23" Ref="LED2"  Part="1" 
 F 0 "LED2" H 4800 3350 50  0000 C CNN
 F 1 "LED8x8_R1C2" H 5400 2950 50  0000 C CNN
-F 2 "first:788BS" H 4950 3150 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 4950 3150 50  0001 C CNN
 F 3 "" H 4950 3150 50  0001 C CNN
 	1    5400 2900
 	1    0    0    -1  
@@ -418,12 +422,14 @@ Wire Wire Line
 Wire Wire Line
 	5250 5100 5250 4850
 $Comp
-L my_lib:LED8x8 LED3
+L led_matrix_pcb:LED8x8 LED3
 U 1 1 61B9DE87
 P 6900 2900
+AR Path="/61B9DE87" Ref="LED3"  Part="1" 
+AR Path="/61B89A99/61B9DE87" Ref="LED3"  Part="1" 
 F 0 "LED3" H 6300 3350 50  0000 C CNN
 F 1 "LED8x8_R1C3" H 6900 2950 50  0000 C CNN
-F 2 "first:788BS" H 6450 3150 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 6450 3150 50  0001 C CNN
 F 3 "" H 6450 3150 50  0001 C CNN
 	1    6900 2900
 	1    0    0    -1  
@@ -616,12 +622,14 @@ Wire Wire Line
 Wire Wire Line
 	6750 5100 6750 4850
 $Comp
-L my_lib:LED8x8 LED4
+L led_matrix_pcb:LED8x8 LED4
 U 1 1 61B9DEEB
 P 8350 2900
+AR Path="/61B9DEEB" Ref="LED4"  Part="1" 
+AR Path="/61B89A99/61B9DEEB" Ref="LED4"  Part="1" 
 F 0 "LED4" H 7750 3350 50  0000 C CNN
 F 1 "LED8x8_R1C4" H 8350 2950 50  0000 C CNN
-F 2 "first:788BS" H 7900 3150 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 7900 3150 50  0001 C CNN
 F 3 "" H 7900 3150 50  0001 C CNN
 	1    8350 2900
 	1    0    0    -1  

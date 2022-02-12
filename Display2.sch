@@ -22,14 +22,15 @@ Wire Wire Line
 Wire Wire Line
 	3950 1800 3950 2050
 $Comp
-L my_lib:LED8x8 LED?
+L led_matrix_pcb:LED8x8 LED?
 U 1 1 61BDA3E4
 P 3800 2650
 AR Path="/61B89A99/61BDA3E4" Ref="LED?"  Part="1" 
 AR Path="/61BB664A/61BDA3E4" Ref="LED5"  Part="1" 
+AR Path="/61BDA3E4" Ref="LED5"  Part="1" 
 F 0 "LED5" H 3200 3100 50  0000 C CNN
 F 1 "LED8x8_R2C1" H 3800 2700 50  0000 C CNN
-F 2 "first:788BS" H 3350 2900 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 3350 2900 50  0001 C CNN
 F 3 "" H 3350 2900 50  0001 C CNN
 	1    3800 2650
 	1    0    0    -1  
@@ -242,14 +243,15 @@ Wire Wire Line
 Wire Wire Line
 	3650 4850 3650 4600
 $Comp
-L my_lib:LED8x8 LED?
+L led_matrix_pcb:LED8x8 LED?
 U 1 1 61BDA448
 P 5250 2650
 AR Path="/61B89A99/61BDA448" Ref="LED?"  Part="1" 
 AR Path="/61BB664A/61BDA448" Ref="LED6"  Part="1" 
+AR Path="/61BDA448" Ref="LED6"  Part="1" 
 F 0 "LED6" H 4650 3100 50  0000 C CNN
 F 1 "LED8x8_R2C2" H 5250 2700 50  0000 C CNN
-F 2 "first:788BS" H 4800 2900 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 4800 2900 50  0001 C CNN
 F 3 "" H 4800 2900 50  0001 C CNN
 	1    5250 2650
 	1    0    0    -1  
@@ -462,14 +464,15 @@ Wire Wire Line
 Wire Wire Line
 	5100 4850 5100 4600
 $Comp
-L my_lib:LED8x8 LED?
+L led_matrix_pcb:LED8x8 LED?
 U 1 1 61BDA4AC
 P 6750 2650
 AR Path="/61B89A99/61BDA4AC" Ref="LED?"  Part="1" 
 AR Path="/61BB664A/61BDA4AC" Ref="LED7"  Part="1" 
+AR Path="/61BDA4AC" Ref="LED7"  Part="1" 
 F 0 "LED7" H 6150 3100 50  0000 C CNN
 F 1 "LED8x8_R2C3" H 6750 2700 50  0000 C CNN
-F 2 "first:788BS" H 6300 2900 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 6300 2900 50  0001 C CNN
 F 3 "" H 6300 2900 50  0001 C CNN
 	1    6750 2650
 	1    0    0    -1  
@@ -682,14 +685,15 @@ Wire Wire Line
 Wire Wire Line
 	6600 4850 6600 4600
 $Comp
-L my_lib:LED8x8 LED?
+L led_matrix_pcb:LED8x8 LED?
 U 1 1 61BDA510
 P 8200 2650
 AR Path="/61B89A99/61BDA510" Ref="LED?"  Part="1" 
 AR Path="/61BB664A/61BDA510" Ref="LED8"  Part="1" 
+AR Path="/61BDA510" Ref="LED8"  Part="1" 
 F 0 "LED8" H 7600 3100 50  0000 C CNN
 F 1 "LED8x8_R2C4" H 8200 2700 50  0000 C CNN
-F 2 "first:788BS" H 7750 2900 50  0001 C CNN
+F 2 "led_matrix_pcb:788BS" H 7750 2900 50  0001 C CNN
 F 3 "" H 7750 2900 50  0001 C CNN
 	1    8200 2650
 	1    0    0    -1  
