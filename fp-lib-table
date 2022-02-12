@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name led_matrix_pcb)(type KiCad)(uri ${KIPRJMOD}/led_matrix_pcb.pretty)(options "")(descr ""))
+)
