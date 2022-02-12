@@ -1,6 +1,6 @@
 # 32x16 LED Array PCB using 788BS
 
-KiKad files for the design of an LED matrix. The board has been manufactured by PCB Way and is
+KiKad 5.1 files for the design of an LED matrix. The board has been manufactured by PCB Way and is
 working.
 
 While physically a 16 row and 32 column design, it is logically organised as 8 rows and 64
