@@ -32,7 +32,7 @@ are difficult to remove as the pins are underneath the package.
 
 ## Errata
 
-v01 of the board transposed rows 5 and 6 on the included 788BS symbol. This can be resolved
+v01 of the board transposed rows 6 and 7 on the included 788BS symbol. This can be resolved
 by transposing the data for these rows in software before driving the serial interface.
 
 ## Future
