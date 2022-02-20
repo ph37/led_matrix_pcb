@@ -24,7 +24,11 @@ each column.
 
 ## Notes
 
-Board layout is intended for manufacture by PCB Way.
+Board layout is intended for manufacture by PCB Way and follows PCB Way design rules. Please check
+compatibility with design rules for any other PCB house.
+
+Board is a very basic design and intended for low frequency operation only. In particular there is
+no ground plane, which I plan to include in a future revision.
 
 Take care with 788BS parts, I recommend testing them before soldering onto the board. 
 The first board I've built has a short circuit inside one of 788BS components, are these 
